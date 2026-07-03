@@ -1,6 +1,6 @@
 [project]
 name = "plaud-lab"
-version = "0.1.0"
+version = "0.1.1"
 description = "A Codex skill and stdlib-only exporter for Plaud transcripts and summaries."
 requires-python = ">=3.10"
 dependencies = []
