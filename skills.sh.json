@@ -1,0 +1,11 @@
+{
+  "$schema": "https://skills.sh/schemas/skills.sh.schema.json",
+  "notGrouped": "bottom",
+  "groupings": [
+    {
+      "title": "Plaud",
+      "description": "Export Plaud transcripts, summaries, and generated notes through Plaud Web's internal API.",
+      "skills": ["plaud-transcript-export"]
+    }
+  ]
+}

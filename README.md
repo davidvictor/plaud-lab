@@ -9,6 +9,8 @@
 
 # Plaud Lab
 
+[![skills.sh](https://skills.sh/b/davidvictor/plaud-lab)](https://skills.sh/davidvictor/plaud-lab)
+
 > A public Codex skill and stdlib-only exporter for backing up Plaud transcripts, summaries, outlines, and generated notes through Plaud Web's internal API.
 
 ## The Problem
@@ -134,11 +136,19 @@ The tests cover formatting, gzip decoding, signed-link sanitization, and the aut
 
 ## Use As A Codex Skill
 
-Copy or install the `skills/plaud-transcript-export` folder into your Codex skills directory, then ask:
+Install the skill directly from the public GitHub repo:
+
+```bash
+npx skills add davidvictor/plaud-lab --skill plaud-transcript-export
+```
+
+Then ask your agent:
 
 ```text
 Use $plaud-transcript-export to download my Plaud transcripts into ./plaud-export.
 ```
+
+The installable skill package lives at `skills/plaud-transcript-export`, and the repo also publishes `.well-known/agent-skills/index.json` for registry-style discovery.
 
 ## Limitations
 

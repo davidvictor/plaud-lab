@@ -1,0 +1,14 @@
+{
+  "skills": [
+    {
+      "name": "plaud-transcript-export",
+      "description": "Export Plaud/Plaud AI recordings, transcripts, summaries, outlines, and related generated notes through the Plaud Web internal API. Use when a user asks to download or back up Plaud transcripts or summaries, inspect Plaud network/API behavior, avoid DOM scraping, preserve recording metadata, or build a repeatable local export from an authenticated Plaud account.",
+      "files": [
+        "SKILL.md",
+        "agents/openai.yaml",
+        "references/api.md",
+        "scripts/export_plaud.py"
+      ]
+    }
+  ]
+}

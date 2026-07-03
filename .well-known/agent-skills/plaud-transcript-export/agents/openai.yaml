@@ -1,0 +1,4 @@
+interface:
+  display_name: "Plaud Transcript Export"
+  short_description: "Export Plaud transcripts via internal API"
+  default_prompt: "Use $plaud-transcript-export to download my Plaud transcripts and summaries into local Markdown files."
